@@ -1,11 +1,13 @@
-# Fastapi_Vue_Template
-Fastapi + Vue + Postgres + Docker template
+# scenes
+all scenes with their scripts are here<br>
 
-This is a template for Vue and Fastapi projects running on Nginx using Docker.
-## for start
-rename file <code>.env.example</code> to <code>.env</code> then <br>
-<code>docker-compose up --build -d</code>
-### frontend
-<code>http://localhost/</code>
-### backend
-<code>http://localhost/api/</code>
+| Folder    | Description                                                    |
+|-----------|----------------------------------------------------------------|
+| _sandbox  | here we test something, and in general we do what we want      |
+| interface | all interface elements                                         |
+| levels    | game level scenes (assembled from other scenes)                |
+| objects   | interactive objects and elements that are added to game levels |
+| player    | player/players/characters e.t.c                                |
+| service   | auxiliary elements providing game functionality                |
+
+> :warning: **This structure will change and be supplemented**
